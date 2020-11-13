@@ -38,14 +38,27 @@ keywords = {Impedance boundary conditions","uniform estimates"}
 	Editor = {U. Langer and D. Pauly and S. Repin},
 	Publisher = {De Gruynter},
 	Title = {The time-harmonic {M}axwell equations with impedance boundary conditions in polyhedral domains},
-	Year = {2019}
+	Year = {2019},
+	Abstract ={In this paper, we first develop a variational formulation of the time-harmonic Maxwell equations with impedance boundary conditions in polyhedral domains similar to the one for domains with smooth boundary proposed in Section 4.5.d of Costabel et al., Corner Singularities and Analytic Regularity for Linear Elliptic Systems. Part I: Smooth Domains, 2010. It turns out that the variational space is embedded in H1 as soon as the domain is convex. In such a case, the existence of a weak solution follows by a compact perturbation argument. As the associated boundary value problem is an elliptic system, standard shift theorem from Dauge, Elliptic Boundary Value Problems on Corner Domains - Smoothness and Asymptotics of Solutions, Springer, 1988 can be applied if the corner and edge singularities are explicitly known. We therefore describe such singularities, by adapting the general strategy from Costabel and Dauge, Arch. Ration. Mech. Anal., 151 (2000), 221-276. Finally in order to perform a wave number explicit error analysis of our problem, a stability estimate is mandatory (see Melenk and Sauter, Math. Comput., 79 (2010), 1871-1914 and Melenk and Sauter, SIAM J. Numer. Anal., 49 (2011), 1210-1243 for the Helmholtz equation). We then prove such an estimate for some particular configurations. We end up with the study of a Galerkin (h-version) finite element method using Lagrange elements and give wave number explicit error bounds in the asymptotic ranges. Some numerical tests that illustrate our theoretical results are also presented.}
 	}
 	
 @Unpublished{pml,
 title = {Wavenumber explicit convergence analysis for finite element discretizations of time-harmonic wave propagation problems with perfectly matched layers},
 author = {T. Chaumont-Frelet, D. Gallistl, S. Nicaise and J. Tomezyk},
 url = {https://hal.archives-ouvertes.fr/hal-01887267},
-Year = {2019}
+Year = {2019},
+Abstract ={The first part of this paper is devoted to a wavenumber-explicit
+stability analysis of a planar Helmholtz problem with a
+perfectly matched layer. We prove that, for a model
+scattering problem, the $H^1$ norm of the solution is bounded
+by the right-hand side, uniformly in the wavenumber $k$
+in the highly oscillatory regime.
+The second part proposes two numerical discretizations:
+an $hp$ finite element method and a multiscale method based
+on local subspace correction. The stability result is used
+to relate the choice of parameters in the numerical methods to the
+wavenumber. A priori error estimates are shown and their
+sharpness is assessed in numerical experiments.}
 }
 
 @phdthesis{these_JT,
@@ -53,5 +66,6 @@ Author = {J. Tomezyk},
 Title = {Numerical resolution of some Helmholtz-type problems with impedance boundary conditions
 or PML},
 Year = {2019},
-School = {Polytechnic University Hauts-de-France}
+School = {Polytechnic University Hauts-de-France},
+Abstract ={In this thesis, we propose wavenumber explicit convergence analyses of some finite element methods for time-harmonic Maxwell's equations with impedance boundary condition and for the Helmholtz equation with Perfectly Matched Layer (PML). We first study the regularized formulation of time-harmonic Maxwell's equations with impedance boundary conditions (where we add a ∇ div-term to the original equation to have an elliptic problem) and keep the impedance boundary condition as an essential boundary condition. For a smooth domain, the wellposedness of this formulation is well-known. But the well-posedness for convex polyhedral domain has been not yet investigated. Hence, we start the first chapter with the proof of the well-posedness in this case, which is based on the fact that the variational space is embedded in H¹. In order to perform a wavenumber explicit error analysis of our problem, a wavenumber explicit stability estimate is mandatory. We then prove such an estimate for some particular configurations. In the second chapter, we describe the corner and edge singularities for such problem. Then we deduce the regularity of the solution of the original and the adjoint problem, thus we have all ingredients to propose a explicit wavenumber convergence analysis for h-FEM with Lagrange element. In the third chapter, we consider a non conforming hp-finite element approximation for domains with a smooth boundary. To perform a wavenumber explicit error analysis, we split the solution of the original problem (or its adjoint) into a regular but oscillating part and a rough component that behaves nicely for large frequencies. This result allows to prove convergence analysis for our FEM, again explicit in the wavenumber. The last chapter is dedicated to the Helmholtz equation with PML. The Helmholtz equation in full space is often used to model time harmonic acoustic scattering problems, with Sommerfeld radiation condition at infinity. Adding a PML is a way to reduce the infinite domain to a finite one. It corresponds to add an artificial absorbing layer surrounding a computational domain, in which scattered wave will decrease very quickly. We first propose a wavenumber explicit stability result for such problem. Then, we propose two numerical discretizations: an hp-FEM and a multiscale method based on local subspace correction. The stability result is used to relate the choice of the parameters in the numerical methods to the wavenumber. A priori error estimates are shown. At the end of each chapter, we perform numerical tests to confirm our theoritical results.}
 }
