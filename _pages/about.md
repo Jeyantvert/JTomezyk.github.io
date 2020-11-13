@@ -8,10 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Research interest
-===
 
-* ??
 
 
 **Keywords:** Finite element methods, numerical analysis, Helmholtz equation, Maxwell's equations, Perfectly Matched Layer. 
