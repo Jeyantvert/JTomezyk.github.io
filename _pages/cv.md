@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-My detailed CV is available HERE.
+My detailed CV is available [here](https://JTomezyk.github.io/files/CV_JT.pdf) (French).
 
 Education
 ======
