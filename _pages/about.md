@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "Home page"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,4 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-Test
+Research interest
+===
+
+* ??
+
+
+**Keywords:** Finite element methods, numerical analysis, Helmholtz equation, Maxwell's equations, Perfectly Matched Layer. 
+ 
+
