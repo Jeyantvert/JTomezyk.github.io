@@ -14,3 +14,14 @@ Talks
 =====
 
 
+* European Numerical Mathematics and Advanced Applications Conference (ENUMATH), talk, 2019, Egmond aan Zee, The Netherlands.
+* Journée des Doctorants en Mathématiques de la région Nord-Pas-de-Calais, talk, 2018, Lille, France.
+* Mardi des chercheurs, poster, 2017, Mons, Belgique.
+* Analysis and Numerics of Acoustic and Electromagnetic Problems (Workshop), poster, 2016, Linz , Autriche.
+
+Conferences followed without communication
+=====
+
+* Cinquièmes rencontres numériques lilloises sur "Domain Decomposition and applications to partial differential equations, school, 2018, Lille, France.
+* Fundamentals and practice of finite elements, school, 2018, Roscoff, France.
+* Analysis and Numerics of Acoustic and Electromagnetic Problems, scool, 2016, Linz, Autriche. 
