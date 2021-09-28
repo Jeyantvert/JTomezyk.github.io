@@ -21,11 +21,13 @@ Work experience
 ======
 * 2020 - Now: Postdoc position
   * University of Lille, L2EP.
+  * work with Thomas Henneron, on Model order Reduction applied to electromagnetic device. 
+   
 * 2018 - 2020:  Research and teaching assistant
   * Polytechnic University Hauts-de-France, LAMAV.
 
 * 2015 - 2019: Ph.D Student 
   * Polytechnic University Hauts-de-France, LAMAV.
-  * Supervisor: Professor Serge Nicaise
+  * Supervisor: Professor Serge Nicaise.
   
 
